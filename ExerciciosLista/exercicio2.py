@@ -2,7 +2,6 @@ N = int(input("Digite um número inteiro positivo: "))
 contador = 0
 soma = 0
 
-## CORRIGIR
 if N > 0:
     while contador <= N:
         soma += contador

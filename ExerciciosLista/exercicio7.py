@@ -3,10 +3,10 @@ linha = 1
 
 if N > 0:
     while linha <= N:
-        i = linha
-        while i > 0:
+        icone = linha
+        while icone > 0:
             print("*", end="")
-            i -= 1
+            icone -= 1
         print()
         linha += 1
 else:
